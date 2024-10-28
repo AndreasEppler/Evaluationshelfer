@@ -1,5 +1,5 @@
 # Survey Evaluation Project
-This project contains three Python scripts designed to implement a simple neural network, detect and extract checkboxes from survey sheets, and evaluate survey forms.
+This project serves as a survey sheet evaluation helper. It reads and evaluates scanned survey sheets in three steps. First, it detects relevant edges in order to calculate a transformation matrix relative to a reference survey sheet. It then extracts the ticking boxes of each question for each of the survey sheets. In a third step, a neural network that was coded from scratch is used in order to evaluate whether the boxes are ticked or not.
 
 # Files
 Neural_Network.py: Implements a simple neural network from scratch.
