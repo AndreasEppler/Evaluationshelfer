@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+*.log
+.ipynb_checkpoints
+tmp/
+
+# Initial Files
+__pycache__
+Saved Models
+Evaluationshelfer_Daten
+Evaluationshelfer_Daten.zip
+Neuronale Netze als Evaluationshelfer.pdf
